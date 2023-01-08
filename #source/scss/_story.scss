@@ -1,0 +1,106 @@
+@import "_header";
+.comments {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   font-family: Poppins;
+   .cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+   }
+   &__card {
+      transition: 0.2s ease-in-out;
+      max-width: 416px;
+      color: #434343;
+      padding: 19px 22px;
+      font-style: italic;
+      p {
+         margin: 32px 0 16px 0;
+         max-width: 342px;
+      }
+      &:hover {
+         background: url("../img/story/bghover.png") 0 0 / cover no-repeat;
+         color: #fff;
+      }
+   }
+
+   &__card-img {
+      width: 102px;
+      height: 102px;
+   }
+
+   &__card-downtitle {
+      font-weight: 600;
+      font-size: 16px;
+   }
+}
+.first-image {
+   background: url("../img/story/Ellipse1.png") 0 0 / cover no-repeat;
+}
+.second-image {
+   background: url("../img/story/Ellipse2.png") 0 0 / cover no-repeat;
+}
+.third-image {
+   background: url("../img/story/Ellipse3.png") 0 0 / cover no-repeat;
+}
+
+.points {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   div {
+      width: 12px;
+      height: 12px;
+      background: #e7e7e7;
+      border-radius: 50%;
+      &:first-child {
+         background: #023957;
+      }
+   }
+   .point {
+      margin: 0 20px;
+   }
+}
+
+.james {
+   background: url("../img/story/BG.png") 0 0 / cover no-repeat;
+   font-family: Poppins;
+   color: #fff;
+   padding: 64px 0;
+
+   &__flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+   &__text {
+      max-width: 517px;
+      h2 {
+         margin-bottom: 16px;
+         font-weight: bold;
+         font-size: 24px;
+      }
+      p {
+         font-size: 16px;
+         line-height: 170%;
+      }
+   }
+}
+
+.villa {
+   padding-top: 100px;
+   padding-bottom: 40px;
+   h2 {
+      text-align: center;
+      font-family: Poppins;
+      font-weight: bold;
+      font-size: 24px;
+      color: #056088;
+   }
+   &__images {
+      margin: 32px 0;
+      display: flex;
+      justify-content: space-between;
+   }
+}

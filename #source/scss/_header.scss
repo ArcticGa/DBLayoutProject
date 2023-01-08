@@ -1,0 +1,48 @@
+header {
+	padding-top: 30px;
+	padding-bottom: 105px;
+	background: url('../img/about/headerabout.png') 0 0/cover no-repeat;
+	color: #fff;
+}
+.header {
+   
+		&__content {
+			nav {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-bottom: 83px;
+			}
+		}
+
+		&__content-logo {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 66px;
+		}
+
+		&__content-list {
+			display: flex;
+			align-items: center;
+			li {
+				margin-left: 40px;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+			}
+		}
+
+		&__content-main {
+			h1 {
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 52px;
+				line-height: 78px;
+				text-align: center;
+			}
+		}
+}
+  

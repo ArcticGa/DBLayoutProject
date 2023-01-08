@@ -1,0 +1,55 @@
+@import "_header";
+.gallery {
+   padding-top: 100px;
+   &__block {
+      max-width: 400px;
+      box-shadow: 0px 8px 30px 15px rgba(2, 57, 87, 0.15);
+      &-text {
+         display: flex;
+         flex-direction: column;
+         font-family: Poppins;
+         padding: 30px;
+         height: 240px;
+         h3 {
+            font-weight: bold;
+            font-size: 24px;
+            color: #056088;
+            margin-bottom: 16px;
+         }
+         p {
+            margin-bottom: 32px;
+            font-size: 16px;
+            color: #434343;
+
+         }
+      }
+   }
+   &__link {
+      display: flex;
+      justify-content: center;
+      a {
+         font-family: Poppins;
+         font-weight: bold;
+         font-size: 24px;
+         line-height: 170%;
+         color: #056088;
+      }
+   }
+}
+.button {
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: #ffffff;
+}
+.first {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 100px;
+}
+.second {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 100px;
+}

@@ -1,0 +1,41 @@
+@import "_header";
+
+main.newsmain {
+   height: 580px;
+   margin-top: 230px;
+   margin-bottom: 600px;
+   font-family: Poppins;
+   background: url("../img/news/bgimg.png") 0 0 / cover no-repeat;
+   color: #fff;
+}
+.todaynews {
+   position: relative;
+   bottom: 130px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding: 30px 78px;
+   min-height: 436px;
+   background: url("../img/news/blockimg.png") 0 0 / cover no-repeat;
+   h2 {
+      font-weight: bold;
+      font-size: 52px;
+   }
+   p {
+      max-width: 342px;
+      font-size: 16px;
+      line-height: 170%;
+   }
+}
+.big {
+   min-height: 294px !important;
+}
+
+.button2 {
+   max-width: 160px;
+   display: inline-block;
+   padding: 23px 35px;
+   background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+   color: #fff;
+}
+
